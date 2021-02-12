@@ -1,0 +1,104 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    height: 100%;
+}
+
+.container{
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px 800px 100px 400px 100px;
+  grid-gap: 0px;
+}
+.nav-bar{
+    grid-column: 1 / -1;
+    box-shadow: 1px 1px 9px rgb(19, 19, 19);
+    background: linear-gradient(0deg, #eb3474 0%, #3464eb 75%)
+
+}
+.nav-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+.menu{
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.logo{
+    color: #111111;
+}
+.menu-item{
+    margin-left: 40px;
+    color:#0d0d0e;
+    text-decoration: transparent;
+}
+.menu-item:hover{
+    color: #ff076e;
+
+}
+.hero{
+grid-column: 1 / -1;
+width: 100vw;
+background-size: cover;
+background: linear-gradient(0deg, #3464eb 0%, #eb3474 75% );
+}
+.hero-container{
+    height: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+.hero h1{
+    font-size: 72px;
+    line-height: 10px;
+    color: #101111;
+}
+.noticias{
+    grid-column: 1 / -1;
+    text-align: center;
+   margin: 30px;
+}
+.btn{
+width: 180px;
+height:50px ;
+background: linear-gradient( 0deg, #eb3434 0%, #f700a5 75%);
+color: rgb(252, 243, 243);
+text-align: center;
+border-radius: 6px;
+margin-top: 30px;
+box-shadow: 1px 1px 6px #bbb;
+}
+.btn:hover{
+    background: linear-gradient(0deg, #f700a5 0%, #eb3434 75%);
+}
+    
+}
+.btn p{
+    padding-top: 15px;
+    font-kerning: bold;
+}
+}
+.box{ text-align: center;
+    margin-top: 30px;
+    
+}
+.box img{
+width: 80%;
+height: 100%;
+box-shadow: 2px 3px 6px #bbb;
+}
+.box img:hover{
+opacity: 0.5;
+width: 83%;
+height: 105%;
+}
+.footer{
+    margin-top: 50px;
+    grid-column: 1 / -1;
+    text-align: center;
+}
